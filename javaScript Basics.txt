@@ -1,0 +1,34 @@
+JavaScipt
+
+Object:{
+	name: 'Netflix, Inc.',
+	price: 123.90,
+	symbol: 'NFLX'
+}
+
+you can also use "" quotes instead of '' quotes.
+usually in javaScript it doesnt matter but if you are dealing with JSON format
+where it allow us to store HIERICAl data inside of an object.
+we use specifically "" in JSON format.
+
+DOM(Documunt Object Model) is a fancy way of saying tree starting with a root node.
+
+It has a ability to run multiple things can happen at a same time. 
+
+
+-> anonymous functions also known as lambda functions:
+	function that have no names
+dom1.html is an expale of anonymous fuction
+
+
+-> Callbacks:
+	callbacks are just function that have been configured to be call at a certain
+	point in time when something happens.
+
+-> Ajax:
+	that allow us to query from browser, a server to get a more data even after 
+	the original page has been loaded.
+
+	
+
+ 

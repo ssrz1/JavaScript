@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- inside script tag we can define javaScxript fuction inside HTML. -->
+    <script>
+      function greet() {
+        //   concatenate with jS + operator
+        //document is a gloabl object that is accessable to JS.
+
+        alert("hello," + document.getElementById("name").value);
+      }
+    </script>
+    <title>dom0</title>
+  </head>
+  <body>
+    <form id="demo" onsubmit="greet(); return false">
+      <input id="name" placeholder="Name" type="text" /> <input type="submit" />
+    </form>
+  </body>
+</html>

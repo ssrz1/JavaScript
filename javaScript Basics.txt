@@ -13,7 +13,8 @@ we use specifically "" in JSON format.
 
 DOM(Documunt Object Model) is a fancy way of saying tree starting with a root node.
 
-It has a ability to run multiple things can happen at a same time. 
+It has a ability to run multiple things can happen at a same time.
+In JS we have the ability to control CSS. 
 
 
 -> anonymous functions also known as lambda functions:
@@ -27,7 +28,15 @@ dom1.html is an expale of anonymous fuction
 
 -> Ajax:
 	that allow us to query from browser, a server to get a more data even after 
-	the original page has been loaded.
+	the original page has been loaded. or
+
+	to make additional HTTP requests from browser to server, without Reloading the whole page.
+
+
+
+Local Storage:
+	in users browser so they dont have to remember on server side.
+
 
 	
 

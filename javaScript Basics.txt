@@ -31,7 +31,10 @@ dom1.html is an expale of anonymous fuction
 	the original page has been loaded. or
 
 	to make additional HTTP requests from browser to server, without Reloading the whole page.
-
+	
+	Ajax use raw data(JSON) that we have programaticaly requested from browser 
+	to server, after the original web page is already loaded, because we have to 	
+	bring MORE DATA for the users. 
 
 
 Local Storage:

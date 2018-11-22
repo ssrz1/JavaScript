@@ -43,6 +43,25 @@ Local Storage:
 	in users browser so they dont have to remember on server side.
 
 
+HOW JS WORKS BEHIND THE HOOD? Mostly Theory
+	
+	JS run on JS Engine which every browser has have such as chrome v8 for chrome.
+	Inside an JS engine we have thing called Parser read codes line by line (knows JS rules and known how it should be written in order tobe correct)
+	If everything is correct it make Abstract Syntax Tree which convert into Machine Code.
+
+Execution Context:
+	
+	A container which stores variables and in which a piece of our code is evaluated and executed.
+	By Default is Global Execution context i.e it is associated with global object
+	In browser thats the Window object.
+	
+	Execution context works in a form of execution stacks. 
+
+Execution context contain three things
+	1. Variable Objects -> Conatian fucntion argument, variable declartion ,function declation
+	2. Scope chain -> variable objects as well as all its parents
+	3. .this
+
 	
 
  

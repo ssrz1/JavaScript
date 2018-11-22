@@ -62,6 +62,22 @@ Execution context contain three things
 	2. Scope chain -> variable objects as well as all its parents
 	3. .this
 
+JS Hoisting:
+	Its a JS default bevaiour.
+	koi bhe ap variable declaration kartay hein code mey neechay aur ap use usay uper kar rahay hein
+	tou yei kaam ap kar sktay hein because JS use declartion ko utha k top pay lay ayeiga automatically
+		1. moving declaration to the top.
+		2. In JS a variable can be used before it has been declared.
+	NOTE: Initiliazation pay hoisted work nahe karta sirf Declaration pay waqt karta hai.
+	var y=7; //Initilaized   	var y; // Declared
+	value nahe day sktay haan agar declare use karnay k baad karo tou wo chalay ga aur usay hoisting khatay hein.
+
+Java Scoping:
+	Lexical Scoping:
+		one function which is lexically in another function which means it is written inside another function.
+		get access to its outer parent function.
+	
+
 	
 
  

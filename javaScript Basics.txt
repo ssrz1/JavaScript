@@ -1,5 +1,7 @@
 JavaScipt
 
+js allow us to create new objects.
+
 Object:{
 	name: 'Netflix, Inc.',
 	price: 123.90,
